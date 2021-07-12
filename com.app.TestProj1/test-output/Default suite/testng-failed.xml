@@ -3,11 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.app.TestCases.AppTest">
+      <class name="com.app.TestCases.AppLoginTest">
         <methods>
           <include name="verifytest"/>
+          <include name="setupsuite"/>
+          <include name="closebrowser"/>
+          <include name="launchbrowser"/>
         </methods>
-      </class> <!-- com.app.TestCases.AppTest -->
+      </class> <!-- com.app.TestCases.AppLoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
